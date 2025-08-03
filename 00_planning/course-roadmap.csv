@@ -1,0 +1,8 @@
+우선순위,과정명,뱃지타입,계획크레딧,실제크레딧,상태,시작예정일,완료예정일,실제완료일,만족도,메모
+1,Generative AI Fundamentals,Completion,30,,계획중,2025-08-05,2025-08-12,,,"개념 중심"
+2,Prompt Design in Vertex AI,Skill,15,,계획중,2025-08-13,2025-08-20,,,"최우선 관심사"
+3,Cloud Digital Leader,Learning Path,40,,계획중,2025-08-21,2025-09-04,,,"FE 연계"
+4,Explore Generative AI with Gemini,Skill,25,,예정,2025-09-05,2025-09-12,,,"기술확장"
+5,Google Cloud Computing Foundations,Completion,30,,예정,2025-09-13,2025-09-20,,,"기초다지기"
+6,Responsible AI for Developers,Completion,20,,예정,2025-09-21,2025-09-28,,,"실무지식"
+7,Machine Learning in the Enterprise,Completion,25,,예정,2025-09-29,2025-10-06,,,"LangChain준비"
