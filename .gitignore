@@ -29,14 +29,99 @@ service-account-key.json
 # ================================================
 # Python 환경
 # ================================================
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+*.dylib
 gcs_env/
 venv/
 env/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
 *.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# ================================================
+# Jupyter Notebook 관련 (중요!)
+# ================================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
 .ipynb_checkpoints
+
+# Jupyter Lab 관련
+.jupyter/
+.local/share/jupyter/
+
+# Google Colab 관련
+.colab-data/
+*.colab
+
+
+# ================================================
+# Google Cloud 특화 추가
+# ================================================
+# Google Cloud 로그 및 임시 파일
+*.log
+logs/
+.gcloud/
+.gsutil/
+# Google Cloud 실습 관련
+*.log
+logs/
+outputs/
+results/
+experiments/
+temp_screenshots/
+
+
+# 실습 중 생성되는 출력 파일들
+outputs/
+results/
+experiments/
+
+# 모델 파일들 (크기가 큰 경우)
+*.model
+*.pkl
+*.joblib
+
+# ================================================
+# Jupyter/Lab 확장 프로그램
+# ================================================
+.jupyter-server-log*
+.jupyterlab/
+
+# ================================================
+# 개발 도구들
+# ================================================
+# VS Code
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+.vscode/.ropeproject
+
+
+
 
 # ================================================
 # 시스템 파일
@@ -61,6 +146,7 @@ Desktop.ini
 *.log
 logs/
 temp/
+*/temp/
 cache/
 
 # 데이터 파일 (단, 계획 파일은 제외)
@@ -75,7 +161,10 @@ cache/
 # ================================================
 screenshots/
 recordings/
-# *.png  
+# 스크린샷이나 이미지 백업
+screenshot_*.png
+backup_*.jpg
+temp_*.jpeg
 # certificate 같은 중요한 이미지는 포함할 수도 있음
 
 # ================================================
@@ -84,5 +173,16 @@ recordings/
 # vscode 작업영역파일
 Google-Cloud-StudyJam-2025.code-workspace
 
+# ================================================
+# 임시 백업 파일들
+# ================================================
+# 백업 파일들
+*.bak
+*.backup
+*.tmp
+*.temp
+
+
 # 임시 저장 파일 (전체 구조 및 깃 저장소 전체 방향 기억용)
 temp-notes/
+01_introduction-to-generative-ai-path/04_prompt-design-in-vertex-ai/lab1_generative-ai-with-vertex-ai/temp/
