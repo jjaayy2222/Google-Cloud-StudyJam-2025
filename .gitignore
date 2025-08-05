@@ -184,5 +184,6 @@ Google-Cloud-StudyJam-2025.code-workspace
 
 
 # 임시 저장 파일 (전체 구조 및 깃 저장소 전체 방향 기억용)
+environment/
 temp-notes/
 01_introduction-to-generative-ai-path/04_prompt-design-in-vertex-ai/lab1_generative-ai-with-vertex-ai/temp/
