@@ -187,3 +187,5 @@ Google-Cloud-StudyJam-2025.code-workspace
 environment/
 temp-notes/
 01_introduction-to-generative-ai-path/04_prompt-design-in-vertex-ai/lab1_generative-ai-with-vertex-ai/temp/
+# 실제 구글 클라우드 실습 파일 저장
+03_Intermediate_Generative_AI_Labs_with_Gemini_on_Google_Cloud/01_Introduction_to_Gemini_2.0_Flash/temp/
