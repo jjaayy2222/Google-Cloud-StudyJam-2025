@@ -20,7 +20,7 @@ Gemini 모델 종류:
   * 기본적인 Python 프로그래밍.
   * 일반적인 API 개념.
   * [Vertex AI Workbench](https://cloud.google.com/vertex-ai/docs/workbench/introduction?hl=ko) Jupyter 노트북 환경에서의 Python 코드 실행 경험.
-실습 환경: 
+* 실습 환경: 
     * `Google Cloud 콘솔`에서 제공하는 임시 계정 사용. 
     * 개인 계정 사용 시 추가 비용 발생 가능성에 유의.
 
